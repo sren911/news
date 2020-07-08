@@ -6,8 +6,9 @@ export const get_label = (data) => {
 	})
 }
 
-export const get_list = () => {
-	return Promise((reslove, reject) => {
-		reslove({data: '请求成功'})
+export const get_list = (data) => {
+	return $http({
+		url: 'get_list',
+		data
 	})
 }

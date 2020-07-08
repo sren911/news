@@ -50,6 +50,7 @@
 			z-index: 99;
 			width: 100%;
 			background-color: $mk-base-color;
+			padding-top:var(--status-bar-height);
 			.navbar-content{
 				display: flex;
 				justify-content: center;
